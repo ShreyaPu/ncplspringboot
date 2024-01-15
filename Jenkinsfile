@@ -1,10 +1,10 @@
-def registry = 'https://bkrraj.jfrog.io'
+def registry = 'https://ShreyaPu.jfrog.io'
 pipeline {
   agent any
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'git@github.com:bkrraj/ncplspringboot.git'
+        git branch: 'main', url: 'git@github.com:ShreyaPu/ncplspringboot.git'
       }
     }
  stage('Pull Changes') {
